@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>News</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <table id="results">
+      <tbody>
+        <!-- Results from DB here -->
+      </tbody>
+    </table>
+    <h1>Mongo News Scraper</h1>
+    <div id="articles">
+      <button id="getnews">get news</button>
+    </div>
+    <div id="notes">
+        <p>Title</p>
+        <input type="text" id="titleinput" />
+      <br>
+        <p>Note</p>
+        <textarea id="bodyinput"></textarea>
+      <div id="buttons">
+        <div id="actionbutton">
+          <button id="savenote">Submit</button>
+        </div>
+        <button id="clearall">Delete All Notes</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
