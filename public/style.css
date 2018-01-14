@@ -1,0 +1,88 @@
+body {
+  background-color: skyblue;
+  text-align: center;
+}
+#notes {
+  hieght:400px;
+  width:500px;
+}
+
+table,
+td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+table {
+  width: 1000px;
+  background-color: antiquewhite;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.active {
+  color: red;
+}
+
+    
+ h1 {
+        font-size: 40px;
+        color: white;
+      }
+ .deleter {
+        margin-left: 20px;
+        color: red;
+        cursor: pointer;
+        text-align: right;
+      } 
+input {
+        width: 400px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 42px;
+        background-color: antiquewhite;
+      }
+textarea {
+        width: 400px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 24px;
+        background-color: antiquewhite;
+
+      }
+.dataTitle {
+        cursor: pointer;
+        font-size: 24px;
+      }
+#results {
+        display:;
+        width: 1000px;
+        height: 75px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: antiquewhite;
+      }
+#actionbutton {
+        display: inline-block;
+      }
+#buttons {
+        margin: 20px;
+      }
+#userinput{
+        display:none;
+      }
+   
